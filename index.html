@@ -1,155 +1,743 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>I Am Ashraf || Web Developer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Ashraf | Card Application Consultant </title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <script defer src="script/script.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Font Awesome & GSAP Scripts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
-    <!--  Bootstrap css file  -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-
-    <!--  font awesome icons  -->
-    <link rel="stylesheet" href="./css/all.min.css">
-
-
-    <!--  Magnific Popup css file  -->
-    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
-
-
-    <!--  Owl-carousel css file  -->
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
-
-
-    <!--  custom css file  -->
-    <link rel="stylesheet" href="./css/style.css">
-
-    <!--  Responsive css file  -->
-    <link rel="stylesheet" href="./css/responsive.css">
 
 </head>
-
 <body>
 
-
-    <!--  ======================= Start Header Area ============================== -->
-
-    <header class="header_area">
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="nav-brand" href="#">
-<!-- <img src="./img/logo1.png" alt="logo">-->
-
-                                            <button type="button" class="btn button secondary-button text-uppercase">iamAshruu</button></a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#service">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#pages">Pages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://codeshikhi.com">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://facebook.com/iamashruu">contact</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </nav>
+  <main>
+    <section id="part_1">
+      <div class="image_1">
+        <div class="logo_part">
+          <img src="images/card-logo.svg" alt="card logo">
         </div>
-    </header>
 
-    <!--  ======================= End Header Area ============================== -->
+        <div class="card_num_part">
+          <h1 class="card_num">4256 1985 9856 0215</h1>
+        </div>
 
-    <!--  ======================= Start Main Area ================================ -->
-    <main class="site-main">
+        <div class="last_part">
+          <div>
+            <h2 class="holder_name">Ashraf Mia</h2>
+          </div>
+          <div>
+            <h2 class="exp_date"><span class="m">12</span>/<span class="y">12</span></h2>
+          </div>
+        </div>
+      </div>
 
+      <div class="image_2">
+        <div class="cvc_part">
+          <p class="cvc_num">123</p>
+        </div>
+      </div>
+    </section>
 
-        <!--  ======================= Start Banner Area =======================  -->
-        <section class="site-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 site-title">
-                        <h3 class="title-text">Hey</h3>
-                        <h1 class="title-text text-uppercase">I am Ashraf</h1>
-                        <h4 class="title-text text-uppercase">Junior Web Developer</h4>
-                        <div class="site-buttons">
-                            <div class="d-flex flex-row flex-wrap">
-                               <a href="https://m.me/iamashruu"> <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire
-                                    Me</button></a>
-                                    <a href="https://m.me/iamashruu"><button type="button" class="btn button secondary-button text-uppercase">Message Me</button></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 banner-image">
-                        <img src="./img/banner/banner-image.png" alt="banner-img" class="img-fluid">
-                    </div>
-                </div>
+    <section id="part_2">
+      <div class="profile_section column">
+        <div class="profile_image center">
+          <img src="https://media.licdn.com/dms/image/v2/D5603AQGcPqTN610GNw/profile-displayphoto-shrink_200_200/B56Zat5lw7GgAc-/0/1746674278984?e=2147483647&v=beta&t=g_78zgu8XZZ84Up8zDYHZ1s2jZBB3RcdDy8L_mi_9s8" alt="Your Photo">
+        </div>
+        
+        <div class="profile_details">
+          <h1>Ashraf Mia - Card Application Consultant</h1>
+          
+          <h2>Expert in HPS PowerCard | FinTech & Payment Card Industry | Parameterization | Authorization & Accounting | Banking System Implementations </h2>
+          <p>
+            I’m a PowerCard expert and card application consultant with deep experience in card issuing systems, UPI integration, and authorization testing. I specialize in end-to-end card lifecycle operations—covering everything from card creation to fraud rule configuration, parameterization, and host routing setup.
+
+Over the years, I’ve led and supported critical projects across multiple banks and payment environments.
+          </p>
+        </div>
+      </div>
+      <div class="cv">
+        <a href="resume.pdf" download class="btn">Download CV</a>
+      </div>
+    </section> 
+  </main>
+
+  <section id="expertise" class="w-full bg-gradient-to-br from-blue-50 to-purple-100 py-24 px-6 relative overflow-hidden">
+    <!-- Dynamic Blurred Background -->
+    <div class="absolute -top-40 -left-40 w-[700px] h-[700px] bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+    <div class="absolute -bottom-40 -right-40 w-[700px] h-[700px] bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+
+    <div class="max-w-7xl mx-auto relative z-10">
+       <!-- Fancy Heading with Animated Underline -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-extrabold text-[#1d1d1f] inline-block relative">
+        Expertise
+        <span class="block h-1 w-full bg-gradient-to-r from-yellow-400 to-purple-500 absolute left-0 bottom-0 animate-underline"></span>
+      </h2>
+    </div>
+
+      <div class="grid gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Card 1 -->
+        <div class="bg-white border-t-4 border-blue-500 rounded-xl shadow-xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 animate-fade-in">
+          <div class="flex items-center space-x-4 mb-4">
+            <div class="bg-blue-100 text-blue-600 p-3 rounded-full">
+              <i class="fa-solid fa-credit-card fa-lg"></i>
             </div>
-        </section>
-        <!--  ======================= End Banner Area =======================  -->
-    </main>
-    <!--  ======================= End Main Area ================================ -->
-
-    <footer class="footer-area">
-        <div class="container">
-            
-             
-                <div class="social text-center">
-                    <h5 class="text-uppercase">Follow me</h5>
-                    <a href="https://facebook.com/iamashruu"><i class="fab fa-facebook"></i></a>
-                    <a href="https://instagram.com/ashru_0"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-                <div class="copyrights text-center">
-                    <p class="para">
-                        Copyright ©2020 All rights reserved by
-                        <a href="https://facebook.com/iamashruu"><span style="color: var(--primary-color);">Ashraf</span></a>
-                    </p>
-                </div>
-            
+            <h3 class="text-xl font-semibold text-blue-700">Card Lifecycle Management</h3>
+          </div>
+          <p class="text-sm text-gray-700 leading-relaxed">Expert in full-cycle card operations: from issuing, activation, BIN configuration to fraud prevention and PowerCard backend logic tuning.</p>
         </div>
-    </footer>
+
+        <!-- Card 2 -->
+        <div class="bg-white border-t-4 border-purple-500 rounded-xl shadow-xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 animate-fade-in">
+          <div class="flex items-center space-x-4 mb-4">
+            <div class="bg-purple-100 text-purple-600 p-3 rounded-full">
+              <i class="fa-solid fa-repeat fa-lg"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-purple-700">UPI Issuing Integration</h3>
+          </div>
+          <p class="text-sm text-gray-700 leading-relaxed">Built and supported UPI issuing services including velocity parameters, fraud rule automation, and certification testing with switch integration.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white border-t-4 border-teal-500 rounded-xl shadow-xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 animate-fade-in">
+          <div class="flex items-center space-x-4 mb-4">
+            <div class="bg-teal-100 text-teal-600 p-3 rounded-full">
+              <i class="fa-solid fa-shield-halved fa-lg"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-teal-700">Authorization Testing</h3>
+          </div>
+          <p class="text-sm text-gray-700 leading-relaxed">Advanced auth validation experience with VTS and MAS simulators for STIP, fallback logic, card fee routing, and transaction simulations.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white border-t-4 border-orange-500 rounded-xl shadow-xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 animate-fade-in">
+          <div class="flex items-center space-x-4 mb-4">
+            <div class="bg-orange-100 text-orange-600 p-3 rounded-full">
+              <i class="fa-solid fa-message fa-lg"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-orange-700">SMS Alert Configuration</h3>
+          </div>
+          <p class="text-sm text-gray-700 leading-relaxed">Setup and tested multilingual, rule-based SMS alerts for transaction events including real-time validations in credit issuing workflows.</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="bg-white border-t-4 border-green-500 rounded-xl shadow-xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 animate-fade-in">
+          <div class="flex items-center space-x-4 mb-4">
+            <div class="bg-green-100 text-green-600 p-3 rounded-full">
+              <i class="fa-solid fa-gears fa-lg"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-green-700">ERP Website Automation</h3>
+          </div>
+          <p class="text-sm text-gray-700 leading-relaxed">Redesigned ERP site using WordPress, integrated FTP modules for back-office automation and dashboard controls for content teams.</p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="bg-white border-t-4 border-pink-500 rounded-xl shadow-xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 animate-fade-in">
+          <div class="flex items-center space-x-4 mb-4">
+            <div class="bg-pink-100 text-pink-600 p-3 rounded-full">
+              <i class="fa-solid fa-user-shield fa-lg"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-pink-700">Security & Access Roles</h3>
+          </div>
+          <p class="text-sm text-gray-700 leading-relaxed">Created secure maker-checker structures, assigned custom profile-based access and managed onboarding workflows across banks.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 
-    <!--  Jquery js file  -->
-    <script src="./js/jquery.3.4.1.js"></script>
-
-    <!--  Bootstrap js file  -->
-    <script src="./js/bootstrap.min.js"></script>
-
-    <!--  isotope js library  -->
-    <script src="./vendor/isotope/isotope.min.js"></script>
 
 
-    <!--  Owl-carousel js file  -->
-    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+  <section id="projects" class="w-full bg-white py-20 px-6 animate-fade-in">
+  <div class="max-w-6xl mx-auto">
+   
+     <!-- Fancy Heading with Animated Underline -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-extrabold text-[#1d1d1f] inline-block relative">
+        <span class="ml-15">
+            Highlighted Projects
+        </span> 
+        <span class="block h-1 w-full bg-gradient-to-r from-yellow-400 to-purple-500 absolute left-0 bottom-0 animate-underline"></span>
+      </h2>
+    </div>
 
-    <!--  custom js file  load-->
-    <script src="./js/main.js"></script>
+    <div class="grid gap-8 lg:grid-cols-2">
+      <!-- ✅ Project card - Centrika UPI Issuing -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-72 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmoxoz3NmGTjDDJkxvayBnDS-gQCt1rMstnA&s" alt="Centrika UPI Issuing"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white text-sm px-4 py-1 rounded-br-xl">
+            Live Project
+          </div>
+        </div>
+        <div class="flex-1 p-6 bg-white">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-4 flex items-center gap-2">
+            <svg class="w-6 h-6 text-green-600 animate-bounce" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+            </svg>
+            Centrika - UPI Issuing
+          </h3>
+          <p class="text-base text-gray-700 mb-4 leading-relaxed">
+            Successfully implemented the complete UPI Issuing journey on Centrika, driving both technical setup and testing efforts. I supported production readiness by streamlining card operations, integrating APIs, handling fraud and accounting logic, and ensuring certification compliance. This significantly reduced onboarding timelines and boosted system robustness across issuing workflows.
+          </p>
+          <div class="space-y-2">
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-blue-500 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">Card operations, velocity limit testing, and UAT support</span>
+            </div>
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-blue-500 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">Nameless + API card creation, webservice integration</span>
+            </div>
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-blue-500 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">UPI auth testing, Maker/Checker flows, roles & profiles</span>
+            </div>
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-blue-500 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">Fraud rule testing, CUP file handling, report generation</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!-- 🔁 More cards for remaining projects will be added here -->
+
+      <!-- ✅ Project card - SIPEM PAN Masking -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-72 overflow-hidden">
+          <img src="https://www.sidi.fr/wp-content/uploads/2023/12/sipem-carre.png" alt="SIPEM PAN Masking"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white text-sm px-4 py-1 rounded-br-xl">
+            PAN Masking</div>
+        </div>
+        <div class="flex-1 p-6 bg-white">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-4 flex items-center gap-2">
+            <svg class="w-6 h-6 text-yellow-500 animate-bounce" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+            </svg>
+            SIPEM – PAN Masking
+          </h3>
+          <p class="text-base text-gray-700 mb-4 leading-relaxed">
+            Successfully configured and tested PAN masking features in SIPEM reports, ensuring compliance by limiting visible PAN digits to the last 6. The setup improved privacy standards and secured report generation.
+          </p>
+          <div class="space-y-2">
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-yellow-400 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">Mask configuration parameterization</span>
+            </div>
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-yellow-400 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">Verification through reporting tests</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ✅ Project card - FTP Website Redesign -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-72 overflow-hidden">
+          <img src="https://www.creativeitinstitute.com/images/course/course_1663052056.jpg" alt="FTP Website"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white text-sm px-4 py-1 rounded-br-xl">
+            Web Upgrade
+          </div>
+        </div>
+        <div class="flex-1 p-6 bg-white">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-4 flex items-center gap-2">
+            <svg class="w-6 h-6 text-sky-500 animate-bounce" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+            </svg>
+            FTP Website & ERP
+          </h3>
+          <p class="text-base text-gray-700 mb-4 leading-relaxed">
+            Upgraded the FTP website with a new WordPress layout and initiated development of a fresh ERP-backed version. The project improves internal workflows and enhances public access.
+          </p>
+          <div class="space-y-2">
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-sky-400 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">Redesigned layout on WordPress</span>
+            </div>
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-sky-400 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">Built ERP-integrated backend (ongoing)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ✅ Project card - HFC SMS Alert -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-72 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs7zMYTEYRZsw_EVHU4_xWFyGrPABuWKUqWxqJBFx0OPmTEnhDv60Hix7GnbVbAkTfxnA&usqp=CAU" alt="HFC SMS Alert"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white text-sm px-4 py-1 rounded-br-xl">
+            Credit SMS Alerts</div>
+        </div>
+        <div class="flex-1 p-6 bg-white">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-4 flex items-center gap-2">
+            <svg class="w-6 h-6 text-green-500 animate-bounce" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+            </svg>
+            HFC Credit SMS Issuing
+          </h3>
+          <p class="text-base text-gray-700 mb-4 leading-relaxed">
+            Enabled real-time SMS alerts for credit issuance through end-to-end event parameterization and rigorous testing, ensuring customers are informed instantly for transparency.
+          </p>
+          <div class="space-y-2">
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-green-400 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">Configured SMS event parameters</span>
+            </div>
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-green-400 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">Tested SMS delivery across scenarios</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ✅ Project card - POT Master Automation -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-72 overflow-hidden">
+          <img src="https://blog.hyperiondev.com/wp-content/uploads/2019/02/Blog-Types-of-Web-Dev.jpg" alt="POT Master Automation"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-black bg-opacity-50 text-white text-sm px-4 py-1 rounded-br-xl">
+            Automation</div>
+        </div>
+        <div class="flex-1 p-6 bg-white">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-4 flex items-center gap-2">
+            <svg class="w-6 h-6 text-orange-500 animate-bounce" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+            </svg>
+            Build POT Master
+          </h3>
+          <p class="text-base text-gray-700 mb-4 leading-relaxed">
+            Designed and implemented an automation system to eliminate manual effort in maintaining the POT master, streamlining data entry and improving reliability.
+          </p>
+          <div class="space-y-2">
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-orange-400 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">Replaced manual POT creation</span>
+            </div>
+            <div class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-orange-400 mt-1" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 00-1.414 0L9 11.586 5.707 8.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"/></svg>
+              <span class="text-sm text-gray-800">Improved data consistency</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🛠 Add more cards here for: Account Mapping, Convergence Issues, Refund Routing, etc. -->
+
+       <!-- ✅ Project card - Convergence Critical Defects -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-64 overflow-hidden">
+          <img src="https://convergence.io/assets/img/convergence_logo_card.png" alt="Convergence Defects"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-red-600 text-white text-sm px-4 py-1 rounded-br-xl">Convergence</div>
+        </div>
+        <div class="flex-1 p-6">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-2 flex items-center gap-2">
+            <svg class="w-6 h-6 text-red-500 animate-pulse" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636L5.636 18.364M6 6h.01M18 18h.01" />
+            </svg>
+            Convergence Critical Defects
+          </h3>
+          <p class="text-base text-gray-700 leading-relaxed">
+            Diagnosed and tested critical system issues in Convergence, helping maintain platform stability by quickly validating bug fixes and defect resolutions.
+          </p>
+        </div>
+      </div>
+
+      <!-- ✅ Project card - Refund Routing Enhancement -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-64 overflow-hidden">
+          <img src="https://i.ytimg.com/vi/ENmm5pEpkrw/maxresdefault.jpg" alt="Refund Routing"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-blue-600 text-white text-sm px-4 py-1 rounded-br-xl">Enhancement</div>
+        </div>
+        <div class="flex-1 p-6">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-2 flex items-center gap-2">
+            <svg class="w-6 h-6 text-blue-500 animate-bounce" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+            </svg>
+            Refund Routing - Q2 2024
+          </h3>
+          <p class="text-base text-gray-700 leading-relaxed">
+            Optimized refund routing by switching to host + stand-in mode and conducted validations over VTS to ensure transaction fallback support.
+          </p>
+        </div>
+      </div>
+
+      <!-- ✅ Project card - HFC Account Mapping -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-64 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgGllxkBZFMhb1Bhx2O8bfhTvJ4dCaU7OCFg&s" alt="Account Mapping"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-green-600 text-white text-sm px-4 py-1 rounded-br-xl">Mapping</div>
+        </div>
+        <div class="flex-1 p-6">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-2 flex items-center gap-2">
+            <svg class="w-6 h-6 text-green-500 animate-pulse" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h4l3 10h4l3-10h4" />
+            </svg>
+            HFC Account Mapping
+          </h3>
+          <p class="text-base text-gray-700 leading-relaxed">
+            Mapped and tested critical financial account routes, ensuring accurate linkage between transaction systems and financial records.
+          </p>
+        </div>
+      </div>
+
+
+      <!-- ✅ Project card - MetBank UPI Issuing -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-64 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwmuPEyJrUkIBgfzaXcFuNAhiK1wDr2Yod5w&s" alt="MetBank UPI Issuing"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-blue-800 text-white text-sm px-4 py-1 rounded-br-xl">UPI</div>
+        </div>
+        <div class="flex-1 p-6">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-2 flex items-center gap-2">
+            <svg class="w-6 h-6 text-blue-800 animate-pulse" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-6a3 3 0 0 1 3-3h6" />
+            </svg>
+            MetBank - UPI Issuing
+          </h3>
+          <p class="text-base text-gray-700 leading-relaxed">
+            Enabled end-to-end MetBank UPI card issuance with compliance configurations, nameless card onboarding, API setups, fee structures, and BCTC certification support for production readiness.
+          </p>
+        </div>
+      </div>
+
+      <!-- ✅ Project card - SCU Convergence V3.5 -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-64 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_r36UuLcRcfiAgVuhqVAariNXTACebTXNNg&s" alt="SCU Convergence"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-purple-700 text-white text-sm px-4 py-1 rounded-br-xl">SCU</div>
+        </div>
+        <div class="flex-1 p-6">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-2 flex items-center gap-2">
+            <svg class="w-6 h-6 text-purple-700 animate-pulse" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+            SCU Convergence V3.5
+          </h3>
+          <p class="text-base text-gray-700 leading-relaxed">
+            Executed Convergence lifecycle testing including card activation, delivery, stop list and PIN processing. Supported daily VTS test scripts and authorization reports via JIRA.
+          </p>
+        </div>
+      </div>
+
+      <!-- ✅ Project card - ACB Convergence V3.5 -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-64 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCg1mKYfiHFsy5XKIiuxmFMaPXsKUywihMkyI8yWa7QMhT3nCudky7tBC6UqL2XOjRFQ&usqp=CAU" alt="ACB Convergence"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-pink-700 text-white text-sm px-4 py-1 rounded-br-xl">ACB</div>
+        </div>
+        <div class="flex-1 p-6">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-2 flex items-center gap-2">
+            <svg class="w-6 h-6 text-pink-700 animate-pulse" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h11M9 21V3" />
+            </svg>
+            ACB Convergence V3.5
+          </h3>
+          <p class="text-base text-gray-700 leading-relaxed">
+            Delivered full card management operations from lifecycle updates to authorization checks across Convergence for ACB, ensuring platform stability and compliance.
+          </p>
+        </div>
+      </div>
+
+      <!-- ✅ Project card - Q2 Enhancement & OMM Weekly Limit -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-64 overflow-hidden">
+          <img src="https://www.paymentscardsandmobile.com/wp-content/uploads/2014/04/Orange-Money.png" alt="Enhancements"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-gray-700 text-white text-sm px-4 py-1 rounded-br-xl">Enhancements</div>
+        </div>
+        <div class="flex-1 p-6">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-2 flex items-center gap-2">
+            <svg class="w-6 h-6 text-gray-700 animate-ping" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m2 4v-4a1 1 0 0 0-1-1h-1" />
+            </svg>
+            Enhancements & OMM Testing
+          </h3>
+          <p class="text-base text-gray-700 leading-relaxed">
+            Led regression test planning for Visa/MasterCard updates. Delivered SOAP UI testing for dCVV2 and implemented routing scenarios across OMM platform.
+          </p>
+        </div>
+      </div>
+
+      <!-- ✅ Project card - CCA Issuing Auth -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-64 overflow-hidden">
+          <img src="https://media.licdn.com/dms/image/v2/C4E0BAQFBYkYNZ1NeAQ/company-logo_200_200/company-logo_200_200/0/1679819170218/cca_bank_logo?e=2147483647&v=beta&t=GljiLNfVF5Bz1hxbQt8ryP2CFHnRoQKGx0JXvHDw5qc" alt="CCA Issuing Auth"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-indigo-600 text-white text-sm px-4 py-1 rounded-br-xl">CCA</div>
+        </div>
+        <div class="flex-1 p-6">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-2">CCA Issuing Auth</h3>
+          <p class="text-base text-gray-700 leading-relaxed">
+            Executed authorization tests for CCA issuing on VTS in collaboration with other stakeholders.
+          </p>
+        </div>
+      </div>
+
+      <!-- ✅ Project card - Convergence Issues Fixes -->
+      <div class="group relative flex flex-col bg-white shadow-xl rounded-xl overflow-hidden hover:shadow-2xl transition duration-500">
+        <div class="relative w-full h-64 overflow-hidden">
+          <img src="https://getawesomesupport.com/wp-content/uploads/2016/09/Lots-of-Bugfixes.png" alt="Convergence Fixes"
+               class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-0 left-0 bg-gray-900 text-white text-sm px-4 py-1 rounded-br-xl">Bugs</div>
+        </div>
+        <div class="flex-1 p-6">
+          <h3 class="text-xl font-extrabold text-[#1d1d1f] mb-2">Convergence Issues Fixes</h3>
+          <p class="text-base text-gray-700 leading-relaxed">
+            Fixed multiple access bugs, stoplist issues, and improved password reset flows for better usability in Convergence.
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+  <!-- ✅ Tools & Technologies Section -->
+  <section id="tools" class="w-full bg-gray-100 py-20 px-6 animate-fade-in">
+    <div class="max-w-6xl mx-auto">
+        <!-- Fancy Heading with Animated Underline -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-extrabold text-[#1d1d1f] inline-block relative">
+        <span class="ml-16">
+            Tools & Technologies
+        </span> 
+        <span class="block h-1 w-full bg-gradient-to-r from-yellow-400 to-purple-500 absolute left-0 bottom-0 animate-underline"></span>
+      </h2>
+    </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-12 h-12">
+          <span class="text-sm font-medium">JavaScript</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-12 h-12">
+          <span class="text-sm font-medium">Python</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="w-12 h-12">
+          <span class="text-sm font-medium">C++</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" class="w-12 h-12">
+          <span class="text-sm font-medium">C</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://img.icons8.com/?size=512&id=at2DODSyQznb&format=png" alt="Solidity" class="w-12 h-12">
+          <span class="text-sm font-medium">Solidity</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js" class="w-12 h-12">
+          <span class="text-sm font-medium">React.js</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="w-12 h-12">
+          <span class="text-sm font-medium">Node.js</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="ExpressJS" class="w-12 h-12">
+          <span class="text-sm font-medium">ExpressJS</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="w-12 h-12">
+          <span class="text-sm font-medium">HTML5</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="w-12 h-12">
+          <span class="text-sm font-medium">CSS3</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" class="w-12 h-12">
+          <span class="text-sm font-medium">Bootstrap</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" class="w-12 h-12">
+          <span class="text-sm font-medium">PostgreSQL</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="w-12 h-12">
+          <span class="text-sm font-medium">MySQL</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://img.icons8.com/external-flat-juicy-fish/60/external-sql-coding-and-development-flat-flat-juicy-fish.png" alt="PL/SQL" class="w-12 h-12">
+          <span class="text-sm font-medium">PL/SQL</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/PuTTY_Icon.svg/400px-PuTTY_Icon.svg.png" alt="Putty" class="w-12 h-12">
+          <span class="text-sm font-medium">Putty</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://w7.pngwing.com/pngs/97/841/png-transparent-winscp-logo-thumbnail.png" alt="WinSCP" class="w-12 h-12">
+          <span class="text-sm font-medium">WinSCP</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://w7.pngwing.com/pngs/17/131/png-transparent-postman-logo-thumbnail-tech-companies.png" alt="Postman" class="w-12 h-12">
+          <span class="text-sm font-medium">Postman</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://media.trustradius.com/product-logos/HJ/CT/3NVR2SSXOISP.JPEG" alt="SoapUI" class="w-12 h-12">
+          <span class="text-sm font-medium">SoapUI</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968875.png" alt="JIRA" class="w-12 h-12">
+          <span class="text-sm font-medium">JIRA</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://img.icons8.com/color/48/trello.png" alt="Trello" class="w-12 h-12">
+          <span class="text-sm font-medium">Trello</span>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <img src="https://img.icons8.com/ios/50/api-settings.png" alt="API Testing" class="w-12 h-12">
+          <span class="text-sm font-medium">API Testing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- ✅ Education & Certifications Section -->
+<section id="education" class="w-full bg-white py-20 px-6 animate-fade-in">
+  <div class="max-w-6xl mx-auto">
+    
+        <!-- Fancy Heading with Animated Underline -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-extrabold text-[#1d1d1f] inline-block relative">
+        <span class="ml-0">
+            <!-- Educations & Certifications -->
+             Academics
+        </span> 
+        <span class="block h-1 w-full bg-gradient-to-r from-yellow-400 to-purple-500 absolute left-0 bottom-0 animate-underline"></span>
+      </h2>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-left">
+        <span class="text-3xl mb-3">🎓
+
+          
+         
+            <h2 class="text-3xl font-extrabold text-[#1d1d1f] inline-block relative">
+              <span class="ml-0">
+                  <!-- Educations & Certifications -->
+                  Educations
+              </span> 
+            </h2>
+      
+    
+        </span>
+        <h3 class="text-lg font-bold text-gray-800 mb-2">B.Sc in Computer Science & Engineering</h3>
+        <p class="text-sm  text-left text-gray-600 ">Mymensingh Engineering College</p>
+        <p class="text-sm  text-justify text-gray-700 font-medium mt-1">CGPA: 3.61 / 4.00</p>
+
+        <h3 class="text-lg font-bold text-gray-800 my-2">H.S.C - Higher Secondary Certificate</h3>
+        <p class="text-sm  text-left text-gray-600">Dhaka Imperial College</p>
+        <p class="text-sm  text-justify text-gray-700 font-medium mt-1">GPA: 5.00 / 5.00</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+        <span class="text-3xl mb-3">📜
+          
+            <h2 class="text-3xl font-extrabold text-[#1d1d1f] inline-block relative">
+              <span class="ml-0">
+                  <!-- Educations & Certifications -->
+                  Certifications
+              </span> 
+            </h2>
+        </span>
+      
+        <ul class="text-sm  text-justify text-gray-700 space-y-2">
+          <li><a href="https://www.udemy.com/certificate/UC-e981c129-6a0b-4312-8d97-63cd02813890/" target="_blank" class="text-blue-600 hover:underline">SQL Masterclass: SQL for Data Analytics</a></li>
+          <li><a href="https://www.udemy.com/certificate/UC-58058d14-bcf4-471a-88bc-686a5af1cafc/" target="_blank" class="text-blue-600 hover:underline">Crash Course Blockchain: Bitcoin and Ethereum Clone</a></li>
+          <li><a href="https://www.sololearn.com/Certificate/1060-2267635/pdf/" target="_blank" class="text-blue-600 hover:underline">SQL (SoloLearn)</a></li>
+          <li><a href="https://www.sololearn.com/Certificate/1024-2267635/pdf/" target="_blank" class="text-blue-600 hover:underline">JavaScript Programming (SoloLearn)</a></li>
+          <li><a href="https://www.sololearn.com/Certificate/1089-2267635/pdf/" target="_blank" class="text-blue-600 hover:underline">C Programming (SoloLearn)</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Interests Section -->
+<section id="interests" class="w-full bg-gray-100 py-20 px-6 animate-fade-in">
+  <div class="max-w-6xl mx-auto">
+        <!-- Fancy Heading with Animated Underline -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-extrabold text-[#1d1d1f] inline-block relative">
+        <span class="ml-0">
+            Interests
+        </span> 
+        <span class="block h-1 w-full bg-gradient-to-r from-yellow-400 to-purple-500 absolute left-0 bottom-0 animate-underline"></span>
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
+        <span class="text-3xl mb-3">💳</span>
+        <h3 class="text-lg font-bold text-gray-800 mb-2">Card Payment Industry</h3>
+        <p class="text-sm text-gray-600">Exploring innovation in the digital payments ecosystem and secure transaction frameworks.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
+        <span class="text-3xl mb-3">⛓️</span>
+        <h3 class="text-lg font-bold text-gray-800 mb-2">Blockchain</h3>
+        <p class="text-sm text-gray-600">Fascinated by decentralized applications and cryptographic security systems.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
+        <span class="text-3xl mb-3">🌐</span>
+        <h3 class="text-lg font-bold text-gray-800 mb-2">Software Engineering & IoT</h3>
+        <p class="text-sm text-gray-600">Building scalable systems and integrating smart devices to improve everyday life.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="contact" class="section animate-fade-in max-w-3xl mx-auto px-6 py-12">
+
+
+        <!-- Fancy Heading with Animated Underline -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-extrabold text-[#1d1d1f] inline-block relative">
+        <span class="ml-0">
+            Contact Me
+        </span> 
+        <span class="block h-1 w-full bg-gradient-to-r from-yellow-400 to-purple-500 absolute left-0 bottom-0 animate-underline"></span>
+      </h2>
+    </div>
+
+    <p class="text-center text-gray-700 mb-3">
+      Email: 
+      <a href="mailto:ashraf.mia@hps-worldwide.com" class="text-blue-600 hover:underline">ashraf.mia@hps-worldwide.com</a>
+    </p>
+    <p class="text-center text-gray-700">
+      LinkedIn: 
+      <a href="https://linkedin.com/in/iamashruu" target="_blank" class="text-blue-600 hover:underline">
+        linkedin.com/in/iamashruu
+      </a>
+    </p>
+  </section>
+  
 
 </body>
-
+<script src="./script/script.js"></script>
 </html>
