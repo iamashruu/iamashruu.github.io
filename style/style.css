@@ -20,6 +20,10 @@
 
 }
 
+body {
+  /* cursor: none;  */
+  cursor: url('https://img.icons8.com/softteal-color/24/blue-pointer.png'), auto;
+} 
 
 main{
 	display: flex;
@@ -276,7 +280,7 @@ main{
 	0% {
 	  transform: rotateY(0deg);
 	}
-	50% :{
+	50% {
 		transform: rotateY(180deg);
 	}
 	100% {
@@ -359,3 +363,17 @@ main{
       width: 140%;
     }
   }
+
+
+/* styling cursor */
+
+#cursorCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+
+
