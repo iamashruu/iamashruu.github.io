@@ -10,20 +10,25 @@
 	--Light-grayish-violet: hsl(270, 3%, 87%);
 	--Dark-grayish-violet: hsl(279, 6%, 55%);
 	--Very-dark-violet: hsl(278, 68%, 11%);
+
 }
 
 *{
-	/* margin: 0; 
-	padding: 0;
-	box-sizing: border-box; */
 	font-family: "Space Grotesk", sans-serif;
-
 }
 
 body {
   /* cursor: none;  */
   cursor: url('https://img.icons8.com/softteal-color/24/blue-pointer.png'), auto;
+  
 } 
+
+/* Mobile layout overflow rest */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 main{
 	display: flex;
@@ -172,6 +177,7 @@ main{
 }
 
 @media (max-width: 800px){
+
 	main{
 		flex-direction: column;
 		
