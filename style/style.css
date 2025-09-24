@@ -217,6 +217,10 @@ main{
 	.coder{
 		text-align: center;
 	}
+
+	.resume{
+		margin: auto;
+	}	
 }
 
 .profile_section.column {
