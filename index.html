@@ -21,60 +21,98 @@
 <canvas id="cursorCanvas"></canvas>
 
   <main>
-    <section id="part_1">
-      <div class="image_1">
-        <div class="logo_part">
-          <img src="images/card-logo.svg" alt="card logo">
-        </div>
+    <section id="hero" class="w-full min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden flex items-center justify-center">
+      <!-- Dynamic Background Elements -->
+      <div class="absolute inset-0">
+        <div class="absolute top-20 left-10 w-72 h-72 bg-white/5 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
+        <div class="absolute top-40 right-10 w-72 h-72 bg-blue-300/10 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"></div>
+        <div class="absolute -bottom-8 left-20 w-72 h-72 bg-gray-300/10 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
+      </div>
 
-        <div class="card_num_part">
-          <h1 class="card_num">4256 1985 9856 0215</h1>
-        </div>
-
-        <div class="last_part">
-          <div>
-            <h2 class="holder_name">Ashraf Mia</h2>
+      <!-- Hero Content -->
+      <div class="relative z-10 max-w-6xl mx-auto px-6 py-20">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          
+          <!-- Text Content -->
+          <div class="text-center lg:text-left">
+            <div class="mb-6">
+              <span class="inline-block bg-slate-700/50 backdrop-blur-sm text-slate-200 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                💳 Card Payment Industry Expert
+              </span>
+            </div>
+            
+            <h1 class="text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight">
+              Hi, I'm <span class="bg-gradient-to-r from-blue-400 to-blue-500 bg-clip-text text-transparent">Ashraf Mia</span>
+            </h1>
+            
+            <h2 class="text-xl lg:text-2xl text-slate-300 mb-6 font-medium">
+              Card Application Consultant at <span class="text-blue-400 font-semibold">FinTech Point</span>
+            </h2>
+            
+            <p class="text-lg text-slate-400 mb-8 leading-relaxed max-w-xl">
+              Skilled in <span class="text-slate-200 font-semibold">HPS PowerCard v3, v3.2 & v3.5</span>, ConnectAPI, and ORACLE PL/SQL with expertise in end-to-end project scopes, parameterizations and card & account operations, authorizations, fraud/SMS, switch and accounting.
+            </p>
+            
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <a href="./card_payment/ASHRAF_MIA_Payment-Card-Professional.pdf" download class="inline-flex items-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+                <i class="fas fa-download mr-2"></i>
+                Download Resume
+              </a>
+              <a href="#contact" class="inline-flex items-center px-8 py-4 bg-slate-700/50 backdrop-blur-sm text-slate-200 font-semibold rounded-xl border border-slate-600 hover:bg-slate-600/50 transform hover:-translate-y-1 transition-all duration-300">
+                <i class="fas fa-envelope mr-2"></i>
+                Get In Touch
+              </a>
+            </div>
+            
+            <!-- Stats -->
+            <div class="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-slate-700">
+              <div class="text-center">
+                <div class="text-2xl font-bold text-white mb-1">8+</div>
+                <div class="text-sm text-slate-400">Banks Implemented</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-bold text-white mb-1">3+</div>
+                <div class="text-sm text-slate-400">Years Experience</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-bold text-white mb-1">1M+</div>
+                <div class="text-sm text-slate-400">Blog Views</div>
+              </div>
+            </div>
           </div>
-          <div>
-            <h2 class="exp_date"><span class="m">12</span>/<span class="y">12</span></h2>
+          
+          <!-- Profile Image Section -->
+          <div class="flex justify-center lg:justify-end">
+            <div class="relative">
+              <!-- Decorative Elements -->
+              <div class="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-slate-500/20 rounded-full opacity-30 blur-2xl animate-pulse"></div>
+              <div class="absolute -top-8 -right-8 w-24 h-24 bg-slate-700/30 rounded-full backdrop-blur-sm flex items-center justify-center border border-slate-600">
+                <i class="fas fa-credit-card text-2xl text-slate-300"></i>
+              </div>
+              <div class="absolute -bottom-8 -left-8 w-24 h-24 bg-slate-700/30 rounded-full backdrop-blur-sm flex items-center justify-center border border-slate-600">
+                <i class="fas fa-code text-2xl text-slate-300"></i>
+              </div>
+              
+              <!-- Profile Image -->
+              <div class="relative w-80 h-80 rounded-full overflow-hidden border-4 border-slate-600 shadow-2xl">
+                <img src="./images/ashraf.jpg" 
+                     alt="Ashraf Mia - Card Payment Industry Professional, HPS PowerCard Expert, Software Developer" 
+                     class="w-full h-full object-cover">
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="image_2">
-        <div class="cvc_part">
-          <p class="cvc_num">123</p>
+      <!-- Scroll Indicator -->
+      <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-slate-400 animate-bounce"></div>
+        <div class="flex flex-col items-center">
+          <span class="text-sm mb-2">Scroll Down</span>
+          <i class="fas fa-chevron-down"></i>
         </div>
       </div>
     </section>
-
-    <section id="part_2">
-      
-      <div class="profile_section column">
-        <div class="profile_image center">
-          <img src="./images/ashraf.jpg" alt="Ashraf | Card Payment Industry professionals | HPS PowerCard Expert | Software Developer">
-        </div>
-        
-        <div class="profile_details">
-          <h1>Ashraf Mia</h1>
-          <h2>Card Application Consultant at FinTech Point</h2>
-          
-          <h2>Expert in HPS PowerCard | FinTech & Payment Card Industry </h2>
-          <p>
-            <!-- I’m a PowerCard expert and card application consultant with deep experience in card issuing systems, UPI integration, and authorization testing. I specialize in end-to-end card lifecycle operations—covering everything from card creation to fraud rule configuration, parameterization, and host routing setup.
-
-Over the years, I’ve led and supported critical projects across multiple banks and payment environments. -->
-
-Skilled in HPS PowerCard v3,v3.2 & v3.5, ConnectAPI, and ORACLE PL/SQL with expertise in end-to-end project
-scopes,parameterizations and card & account operations, authorizations, fraud/SMS,switch and
-accounting. Successfully led UPI and VISA issuing certifications across multiple international banks.
-          </p>
-        </div>
-      </div>
-      <div class="cv resume">
-        <a href="./card_payment/ASHRAF_MIA_Payment-Card-Professional.pdf" download class="btn">Download Resume</a>
-      </div>
-    </section> 
   </main>
 
   <section id="expertise" class="w-full bg-gradient-to-br from-blue-50 to-purple-100 py-24 px-6 relative overflow-hidden">
